@@ -6,6 +6,6 @@
     <title>PHP</title>
 </head>
 <body>
-  <?php echo "Job00" ?>  
+  <?php echo "Hello Laplateforme!" ?>  
 </body>
 </html>
