@@ -8,9 +8,9 @@
 <body>
     <?php
 # la ligne
-    echo "Hello Laplateforme! ";
+    echo "<p>Hello Laplateforme!</p> ";
 /* le bloc */
-    echo "Hello Laplateforme!";
+    echo "<p>Hello Laplateforme!</p>";
     ?>
 </body>
 </html>
