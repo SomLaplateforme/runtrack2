@@ -1,7 +1,13 @@
- tr td{
+ th, td{
   
-  width: 3%;
     border: 3px solid purple;
     text-align:center;
     
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+thead{
+  color: blue;
 }
