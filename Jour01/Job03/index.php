@@ -1,3 +1,11 @@
+<?php
+$mybool = true;
+$nombre = 3;
+$texto = "je suis moi";
+$nbvirgule = 1.2345;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,66 +14,88 @@
     <title>Tableau PHP</title>
     <link href="style.css" rel="stylesheet"/>
 </head>
-<header>
-    <table>
+
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>
+            TYPE
+        </th>
+        <th>
+            NOM
+        </th>
+        <th>
+            VALEUR
+        </th>
+    </tr> 
+    </thead>
+
+    <tbody>      
     <tr>
         <td>
-            type
-        </td>
-        <td>
-            nom
-        </td>
-        <td>
-            valeur
-        </td>
-    </tr>    
-    <tr>
-        <td>
-            boolean
+          <?php
+          echo gettype($mybool);
+          ?>  
         </td>
         <td>
             mybool
         </td>
         <td>
-            true
+            <?php
+            echo $mybool;
+            ?>
         </td>
     </tr>
     <tr>
         <td>
-            entier
+            <?php
+            echo gettype($nombre);
+            ?>
         </td>
         <td>
             nombre
         </td>
         <td>
-           3 
+           <?php
+           echo $nombre;
+           ?>
+
         </td>
     </tr>
     <tr>
         <td>
-            chaîne caractères
+            <?php
+            echo gettype($texto);
+            ?>
         </td>
         <td>
-            texte
+            texto
         </td>
         <td>
-            je suis moi
+            <?php
+            echo $texto;
+            ?>
         </td>
     </tr>
     <tr>
         <td>
-            virgule flottante
+            <?php
+            echo gettype($nbvirgule);
+            ?>
         </td>
         <td>
-            nb virgule
+            nbvirgule
         </td>
         <td>
-            1.2345
+            <?php 
+            echo $nbvirgule;
+            ?>
         </td>
     </tr>
-    
+    </tbody>
   </table>  
-</header>
+</table>
 <body>
     
 </body>
