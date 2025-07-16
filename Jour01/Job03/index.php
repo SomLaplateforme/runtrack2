@@ -96,7 +96,7 @@ $nbvirgule = 1.2345;
     </tbody>
   </table>  
 </table>
-<body>
+
     
 </body>
 </html>
